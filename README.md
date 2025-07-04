@@ -40,20 +40,17 @@ A fun and interactive full-stack web application where users can view and submit
 
 ---
 
-## 🖥 Frontend Setup (React)
+## 🖥 Setup 
 
 ```bash
+
+## Frontend Setup 
 cd frontend
 npm install
 npm start
 
-## 🖥 Bckend Setup 
-# Navigate to backend folder
+## Backend Setup 
 cd backend
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the FastAPI server
 uvicorn main:app --reload
 
