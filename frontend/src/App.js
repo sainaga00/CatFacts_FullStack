@@ -6,7 +6,7 @@ import DashboardModal from "./components/DashboardModal";
 import AdminDashboardModal from "./components/AdminDashboardModal";
 import AddFactModal from "./components/AddFactModal";
 
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://catfacts-fullstack.onrender.com";
 
 export default function App() {
   const [facts, setFacts] = useState([]);
