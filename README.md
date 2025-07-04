@@ -9,6 +9,8 @@ A fun and interactive full-stack web application where users can view and submit
 - **Frontend**: [https://cat-facts-full-stack.vercel.app/](https://cat-facts-full-stack.vercel.app/)
 - **Backend (API)**: [https://catfacts-fullstack.onrender.com/catfacts/](https://catfacts-fullstack.onrender.com/catfacts/)
 
+> 🐢 **Note:** Make sure the backend is awake before testing the frontend. Render may put the backend to sleep after ~15 minutes of inactivity.
+
 ---
 
 ## 🧩 Tech Stack
@@ -24,9 +26,9 @@ A fun and interactive full-stack web application where users can view and submit
 ## 💡 Features
 
 - 🔍 View a random cat fact on page load
-- ➕ Add your own cat facts (admin approval required)
-- 🛡 Admin dashboard to approve or reject facts
-- ⚡ Fast, responsive, and animated cat-themed UI
+- ➕ Submit your own cat facts (with login)
+- 🛡 Admin dashboard to approve or reject submitted facts
+- ✨ Fun animations and cat-themed UI using Tailwind
 
 ---
 
@@ -36,21 +38,22 @@ A fun and interactive full-stack web application where users can view and submit
 
 - Node.js ≥ 14
 - Python ≥ 3.9
-- `pip` for managing Python packages
+- `pip` for Python package management
 
 ---
 
-## 🖥 Setup 
+## 🖥️ Setup Instructions
+
+### 📦 Setup
 
 ```bash
-
-## Frontend Setup 
-cd frontend
+### Frontend Setup
+git clone https://github.com/sainaga00/CatFacts_FullStack.git
+cd CatFacts_FullStack/frontend
 npm install
 npm start
 
-## Backend Setup 
-cd backend
+### Backend Setup
+cd CatFacts_FullStack/backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-
